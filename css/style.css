@@ -1,0 +1,41 @@
+#movies img, #movie img{
+  width:100%;
+}
+
+
+
+@media(min-width:960px){
+  #movies .col-md-3 .well{
+    height: 420px;
+  }
+
+  #movies .col-md-3 img{
+    height:320px;
+    background-color: blue;
+    color: white;
+  }
+}
+
+
+
+#banner_img{
+  height: 40%;
+  width: 40%;
+  margin: auto;
+}
+
+.primary-color-dark{
+background-color: #0d47a1;
+color:black;
+}
+
+.navbar-brand{
+  color: #0d47a1;
+  font-size: 2em;
+  font-weight: bolder;
+}
+
+#search_text{
+  font-size: 2em;
+  font-weight: bolder;
+}
